@@ -1,0 +1,938 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, beige 33.33%,  rgb(167, 15, 43));
+}
+
+header img{ 
+width: 500px;
+
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 15, 47);
+    padding: 15px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+nav a{
+    font-weight:600;
+    padding-right: 10px;
+}
+
+nav a:hover{ 
+    color:white;
+}
+
+h1{
+    font-style: italic;
+}
+
+
+
+.uno{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh; 
+}
+.dos {
+    width: 300px;
+    height: 200px;
+    display: flex;                
+    
+}
+.tre{
+
+    background-color: white;
+    width: 40%;
+}
+
+.cuatro {
+    background-color: #8d1b3d;
+    width: 60%;
+    position: relative;
+
+}
+.cinco {
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        white 0px, white 5px,
+        #8d1b3d 5px, #8d1b3d 10px
+    );
+}
+
+
+.ecuador{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 35vh;
+}
+.primera {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(yellow 50%, blue 50%, blue 75%, red 75%);
+}
+
+
+.senegal{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 35vh;
+}
+
+.one {
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+.franja {
+    flex: 1;
+    height: 100%;
+}
+.two {
+    background-color: green;
+}
+.thre {
+    background-color: yellow;
+}
+.for{
+    background-color: #D30000;
+}
+
+
+.paises{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 35vh;
+    
+}
+.bajos{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(red 50%, white 50%, white 75%, blue 75%);
+} 
+
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black; /
+}
+
+
+.stripe {
+    position: absolute;
+    background-color: red;
+}
+
+
+.horizontal {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    transform: translateY(-50%);
+}
+
+
+.vertical {
+    left: 50%;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+.normal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  
+    padding: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+
+.flag-england {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.stripe {
+    position: absolute;
+    background-color: red;
+}
+
+.horizontal {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    transform: translateY(-50%);
+}
+
+.vertical {
+    left: 50%;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+
+.flag-usa {
+    position: relative;
+    width: 380px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.stripe-usa {
+    width: 100%;
+    height: calc(100% / 13);
+}
+
+.redusa {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue-square {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    background-color: navy;
+    top: 0;
+    left: 0;
+}
+
+.stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.stars div {
+    width: 10%;
+    text-align: center;
+}
+
+.flag-iran {
+    position: relative;
+    width: 300px;
+    height: 180px;
+    border: 2px solid black;
+}
+
+.stripe-iran {
+    width: 100%;
+    height: 33.33%;
+}
+
+.giran{
+    background-color: green;
+}
+
+.rei{
+    background-color: red;
+}
+
+.symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: red;
+}
+
+
+.flag-wales {
+    position: relative;
+    width: 300px;
+    height: 180px;
+    border: 2px solid black;
+}
+
+.stripe-wales {
+    width: 100%;
+    height: 50%;
+}
+
+.white-wales {
+    background-color: white;
+}
+
+.green-wales {
+    background-color: green;
+}
+
+.dragon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: red;
+}
+
+    
+.medico{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      
+        padding: 20px;
+    
+
+ 
+
+   
+    .flag-argentina {
+        width: 300px;
+        height: 180px;
+        border: 2px solid black;
+    }
+
+    .stripe-argentina {
+        width: 100%;
+        height: 33.33%;
+    }
+
+    .skyblue { background-color: #74ACDF; }
+    .white { background-color: white; }
+
+    .sun {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    
+    .flag-poland {
+        width: 300px;
+        height: 180px;
+        border: 2px solid black;
+    }
+
+    .stripe-poland {
+        width: 100%;
+        height: 50%;
+    }
+
+    .red { background-color: red; }
+
+    
+    .flag-mexico {
+        display: flex;
+        width: 300px;
+        height: 180px;
+        border: 2px solid black;
+    }
+
+    .green { background-color: green; width: 33.33%; }
+    .white-mexico { background-color: white; width: 33.33%; position: relative; }
+    .red-mexico { background-color: red; width: 33.33%; }
+
+    .eagle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+
+    
+    .flag-saudi {
+        position: relative;
+        width: 300px;
+        height: 180px;
+        background-color: #006C35;
+        border: 2px solid black;
+    }
+
+    .arabic-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
+.Francia{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+
+}
+
+.fone{
+
+    background-color:#D30000;
+    width: 300px;
+    height: 200px;
+    display: flex;
+  
+}
+
+.fdos{
+    background-color: blue;
+    width: 33.33%;
+    height: 100%;
+}
+
+.ftres{
+    background-color: white;
+    width: 33.33%;
+    height: 100%;
+}
+
+.Australia{
+  
+    display: flex;              
+    justify-content: center;
+    align-items: center;    
+}
+
+.au{
+     width: 33.33%;
+    height: 100%;
+}
+ 
+
+
+.tune{
+    background-color:#D30000;
+    width: 320px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulob{
+
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tu{
+    display: block; 
+    margin: auto;
+
+
+ }
+
+ .tunez{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+ }
+
+
+ .dinamarca {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color:red;
+ 
+}
+
+.di {
+    position: absolute;
+    background-color: white;
+}
+
+.horizontal {
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    transform: translateY(-50%);
+}
+
+.vertical {
+    left: 30%;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.dina{
+    display: flex;              
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+.ja{
+    background-color:white;
+    width: 320px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cirpon{
+
+    width: 100px;
+    height: 100px;
+    background-color:#D30000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.japon{
+    display: flex;              
+    justify-content: center;
+    align-items: center; 
+          
+ }
+
+
+ .eeuno {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.runo, .edoss {
+    flex: 1;
+}
+.runo {
+    background-color: #AA151B;
+}
+.edoss {
+    background-color: #F1BF00;
+}
+
+.espa{
+    display: flex;              
+    justify-content: center;
+    align-items: center; 
+          
+}
+
+
+.aleuno {
+    width: 320px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ale {
+    height: 60px;
+}
+
+.alee {
+    background-color: black;
+}
+
+.alle {
+    background-color: red;
+}
+
+.aale{
+    background-color: yellow;
+}
+
+.alemania{
+    display: flex;              
+    justify-content: center;
+    align-items: center; 
+}
+
+.costa{
+    display: flex;              
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.rica {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cos {
+    flex: 1;
+}
+
+.atul {
+    background-color: blue;
+}
+
+.blaquito {
+    background-color: white;
+}
+
+.rojito {
+    background-color: red;
+    flex: 2; 
+}
+
+.maru{
+    background-color: #AA151B; 
+    width: 320px;
+    height: 200px;
+}
+
+.marruecos{
+    display: flex;              
+    justify-content: center;
+    align-items: center; 
+}
+
+.maruimg{
+    display: block;
+    margin: auto;
+}
+
+.croa {
+    width: 320px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cr {
+    height: 60px;
+}
+
+.cia{
+    background-color:#D30000;
+}
+
+.ciia {
+    background-color: white;
+}
+
+.ciaa{
+    background-color:blue;
+}
+
+.croacia{
+    display: flex;              
+    justify-content: center;
+    align-items: center; 
+}
+
+.Belgica{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+
+}
+
+.buno{
+
+    background-color:#AA151B;
+    width: 320px;
+    height: 200px;
+    display: flex;
+  
+}
+
+.bdos{
+    background-color:black;
+    width: 33.33%;
+    height: 100%;
+}
+
+.btres{
+    background-color:darkgoldenrod;
+    width: 33.33%;
+    height: 100%;
+}
+
+.canada{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+
+}
+
+.cana{
+
+    background-color:#D30000;
+    width: 320px;
+    height: 200px;
+    display: flex;
+     
+  
+}
+
+.cdos{
+    background-color:#D30000;
+    width: 33.33%;
+    height: 100%;
+}
+
+.ctres{
+    background-color:white;
+    width: 33.33%;
+    height: 100%;
+}
+
+
+h2{ color: azure;
+    text-align: center;
+    font-style: italic;}
+    
+    .brasil{
+     
+        display: flex;              
+        justify-content: center;
+        align-items: center;        
+     
+    }
+    .br{
+        width: 33.33%;
+        height: 100%;
+    }
+    
+
+    .sui{
+        display: flex;              
+        justify-content: center;
+        align-items: center;     
+    }
+    .Suiza{
+          
+        background-color: #D30000;
+        width:320px;
+        height:200px;
+    }
+    
+   
+
+    .Camerun{
+        display: flex;              
+        justify-content: center;
+        align-items: center;        
+    
+    }
+    
+    .ver{
+    
+        background-color:#F1BF00;
+        width: 320px;
+        height: 200px;
+        display: flex;
+         
+      
+    }
+    
+    .rred{
+        background-color:#006b3f;
+        width: 33.33%;
+        height: 100%;
+    }
+    
+    .ama{
+        background-color:#D30000;
+        width: 33.33%;
+        height: 100%;
+    }
+
+
+    .sebia{
+        display: flex;              
+        justify-content: center;
+        align-items: center;        
+     
+    }
+    .BAND {
+        width: 320px;
+        height: 200px;
+        border: 1px solid #000;
+        
+    }
+    .S {
+        height: 33.33%;
+        
+    }
+    .rojo {
+        background-color:#D30000;
+    }
+    .azul {
+        background-color: #0000FF;
+    }
+    .blanco {
+        background-color: #FFFFFF;
+    }
+
+    .por{
+        display: flex;              
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .portugal {
+        width: 300px;
+        height: 200px;
+        display: flex;
+    }
+    .green {
+        background-color: #006600;
+        width: 40%;
+    }
+    .red {
+        background-color: #FF0000;
+        width: 60%;
+    }
+    .poima{
+     display:inline-flex;
+    }
+    
+    .sur{
+        display: flex;              
+        justify-content: center;
+        align-items: center;
+    }
+    .corea {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 1px solid #000;
+        
+    }
+    .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(to bottom, red 50%, blue 50%);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .trigram {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: black;
+    }
+    .trigram.top-left {
+        top: 20px;
+        left: 20px;
+    }
+    .trigram.top-right {
+        top: 20px;
+        right: 20px;
+    }
+    .trigram.bottom-left {
+        bottom: 20px;
+        left: 20px;
+    }
+    .trigram.bottom-right {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .uruguay{
+        display: flex;              
+        justify-content: center;
+        align-items: center;
+    }
+    .uru {
+        width: 33.33%;
+        height: 200px;
+        position: relative;
+        border: 1px solid #000;
+    
+    }
+    .urug {
+        width: 100%;
+        height: 22.22px;
+        justify-content: left;
+    }
+    .ry {
+        justify-content: left;
+        background-color: white;
+    }
+    .by {
+        background-color: blue;
+    }
+
+
+
+    .ghana{
+        display: flex;              
+        justify-content: center;
+        align-items: center;        
+     
+    }
+    .gha {
+        width: 320px;
+        height: 200px;
+        border: 1px solid #000;
+        
+    }
+    .er {
+        height: 33.33%;
+    }
+    .gharojo{
+        background-color:#D30000;
+    }
+    .ghamari {
+        background-color:gold;
+    }
+    .ghabla {
+        background-color:#006b3f;
+    }
